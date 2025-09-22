@@ -21,7 +21,7 @@ This project is an Arduino test program to control the motors of a robotic car. 
 
 ## Wiring Diagram
 
-![Wiring Diagram](scheme.png)
+![Wiring Diagram](docs/scheme.png)
 
 ### Arduino to L298N Connections
 
@@ -95,8 +95,8 @@ Change values in the `Left()` and `Right()` functions:
 
 ```cpp
 void Left()
-{
   SetEngine(motor1, 60, forward);  // Change 40 to 60 for more speed
+
   SetEngine(motor2, 60, back);
 }
 ```

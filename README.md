@@ -21,7 +21,7 @@ Ce projet est un programme de test Arduino pour contrôler les moteurs d'une voi
 
 ## Schéma de câblage
 
-![Schéma de câblage](scheme.png)
+![Schéma de câblage](docs/scheme.png)
 
 ### Connexions Arduino vers L298N
 
@@ -95,8 +95,8 @@ Changer les valeurs dans les fonctions `Left()` et `Right()` :
 
 ```cpp
 void Left()
-{
   SetEngine(motor1, 60, forward);  // Changer 40 en 60 pour plus de vitesse
+
   SetEngine(motor2, 60, back);
 }
 ```
